@@ -1,5 +1,5 @@
 baseURL = "https://example.com/"
-languageCode = "es-ES"
+locale = "es-ES"
 title = "Salva"
 author = "Salva"
 copyright = "© Salva"
