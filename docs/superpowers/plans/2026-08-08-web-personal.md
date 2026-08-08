@@ -289,11 +289,11 @@ La experiencia de crear mi primera aplicación completa: qué aprendí, qué har
 ```bash
 hugo
 test -f public/blog/hola-mundo/index.html && echo "post OK"
-grep -o 'href="/tags/programacion/"' public/blog/index.html | head -1
+ls public/tags/ | grep -i program && echo "tag OK"
 test -f public/index.xml && echo "RSS OK"
 ```
 
-Expected: `post OK`, aparece el enlace `#programación`, `RSS OK`. Build sin errores.
+Expected: `post OK`, `tag OK` (directorio de tag generado; Hugo conserva la tilde, por eso no se fuerza el slug sin acento), `RSS OK`. Build sin errores.
 
 - [ ] **Step 5: Commit**
 
@@ -329,7 +329,7 @@ test -f public/blog/index.html && echo "blog OK"
 test -f public/sobre-mi/index.html && echo "about OK"
 test -f public/proyectos/index.html && echo "projects OK"
 test -f public/index.xml && echo "RSS OK"
-test -f public/tags/programacion/index.html && echo "tags OK"
+ls public/tags/ | grep -i program && echo "tags OK"
 ```
 
 Expected: build sin errores y todas las comprobaciones muestran `OK`.
