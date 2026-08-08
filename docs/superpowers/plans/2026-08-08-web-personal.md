@@ -12,7 +12,7 @@
 
 - Hugo instalado con `brew install hugo` (binario global vía Homebrew; es el binario "local" que usa la web).
 - Versión de Hugo: v0.164.0 (última estable).
-- Idioma del sitio: español (`languageCode = "es-ES"`).
+- Idioma del sitio: español (`locale = "es-ES"`).
 - Nombre a mostrar: **Salva**.
 - Menú principal: `Blog · Proyectos · Sobre mí · RSS` (además del título "Salva" que enlaza al inicio).
 - Tags predefinidos: `programación`, `inteligencia artificial`, `proyectos`.
@@ -106,7 +106,7 @@ git commit -m "chore: scaffold hugo site with hugo-bearblog theme"
 
 ```toml
 baseURL = "https://example.com/"
-languageCode = "es-ES"
+locale = "es-ES"
 title = "Salva"
 author = "Salva"
 copyright = "© Salva"
