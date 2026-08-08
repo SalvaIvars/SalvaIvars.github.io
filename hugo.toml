@@ -1,3 +1,38 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://example.com/"
+languageCode = "es-ES"
+title = "Salva"
+author = "Salva"
+copyright = "© Salva"
+theme = "hugo-bearblog"
+enableRobotsTXT = true
+
+[params]
+  description = "Web personal de Salva: programación, inteligencia artificial y proyectos."
+  dateFormat = "2006-01-02"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 1
+
+[[menu.main]]
+  name = "Proyectos"
+  url = "/proyectos/"
+  weight = 2
+
+[[menu.main]]
+  name = "Sobre mí"
+  url = "/sobre-mi/"
+  weight = 3
+
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 4
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
