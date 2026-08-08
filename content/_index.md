@@ -1,5 +1,5 @@
 ---
-title: "Salva"
+title: "✰Salva✰"
 ---
 Bienvenido a mi rincón de la web.
 

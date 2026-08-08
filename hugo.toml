@@ -1,6 +1,6 @@
-baseURL = "https://example.com/"
+baseURL = "https://salvaivars.github.io/"
 locale = "es-ES"
-title = "Salva"
+title = "✰Salva✰"
 author = "Salva"
 copyright = "© Salva"
 theme = "hugo-bearblog"
@@ -29,6 +29,11 @@ enableRobotsTXT = true
   name = "RSS"
   url = "/index.xml"
   weight = 4
+
+[[menu.main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/salva-ivars/"
+  weight = 5
 
 [markup]
   [markup.highlight]
