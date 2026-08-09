@@ -1,5 +1,5 @@
 baseURL = "https://salvaivars.github.io/"
-locale = "es-ES"
+locale = "en"
 title = "✰Salva✰"
 author = "Salva"
 copyright = "© Salva"
@@ -7,7 +7,7 @@ theme = "hugo-bearblog"
 enableRobotsTXT = true
 
 [params]
-  description = "Web personal de Salva: programación, inteligencia artificial y proyectos."
+  description = "Salva's personal website: programming, artificial intelligence and projects."
   dateFormat = "2006-01-02"
 
 [[menu.main]]
@@ -16,13 +16,13 @@ enableRobotsTXT = true
   weight = 1
 
 [[menu.main]]
-  name = "Proyectos"
-  url = "/proyectos/"
+  name = "Projects"
+  url = "/projects/"
   weight = 2
 
 [[menu.main]]
-  name = "Sobre mí"
-  url = "/sobre-mi/"
+  name = "About"
+  url = "/about/"
   weight = 3
 
 [[menu.main]]
@@ -34,6 +34,11 @@ enableRobotsTXT = true
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/salva-ivars/"
   weight = 5
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/SalvaIvars"
+  weight = 6
 
 [markup]
   [markup.highlight]

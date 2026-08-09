@@ -1,8 +1,8 @@
 ---
 title: "✰Salva✰"
 ---
-Bienvenido a mi rincón de la web.
+Welcome to my corner of the web.
 
-Escribo sobre programación, inteligencia artificial y los proyectos en los que trabajo.
+I write about programming, artificial intelligence and the projects I'm working on.
 
-Puedes leer mis artículos en el [blog](/blog/).
+You can read my articles on the [blog](/blog/).
