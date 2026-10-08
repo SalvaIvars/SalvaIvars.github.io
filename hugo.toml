@@ -40,6 +40,11 @@ enableRobotsTXT = true
   url = "https://github.com/SalvaIvars"
   weight = 6
 
+[[menu.main]]
+  name = "X"
+  url = "https://x.com/SalvaIvars"
+  weight = 7
+
 [markup]
   [markup.highlight]
     style = "friendly"
